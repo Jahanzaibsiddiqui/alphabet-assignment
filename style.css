@@ -1,0 +1,127 @@
+@font-face {
+        font-family: 'lobster-regular';
+        src: url('./assets/Lobster-Regular.ttf');
+        }
+@font-face {
+        font-family: 'comic-sans';
+        src: url('./assets/Qdbettercomicsansalternates-z8823.ttf');
+}
+@font-face {
+    font-family: 'choco-donut';
+    src: url('./assets/ChocoDonut-9YPxB.otf');
+}
+* {
+    font-family: lobster-regular;
+    background-color: burlywood;
+    text-align: center;
+    color:mediumblue ;
+    text-shadow: 1px 2px 1px aqua;
+    letter-spacing: 10px;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+h1 {
+    font-size: 72px;
+    background-image: url(./assets/istockphoto-1206937727-170667a.jpg);
+}
+h2 {
+    font-size: 52px;
+    font-family: comic-sans;
+    color: rgb(230, 255, 9);
+}
+h2,p {
+    line-height: 10px;
+}
+p {
+    font-family: choco-donut;
+    font-size: 48px;
+    color: crimson;
+    letter-spacing: 4px;
+}
+li {
+    display: inline;
+    font-size: 30px;
+    color: rgb(250, 7, 100);
+    text-shadow: none;
+    font-family: monospace;
+}
+img {
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid grey;
+}
+hr{
+    border-radius: 5px;
+    border: 5px solid rgba(243, 138, 18, 0.815);
+    border-style: dashed;
+    
+}
+a,button {
+    text-decoration: none;
+    color: deeppink;
+}
+button {
+    padding: 10px;
+    margin-bottom: 50px;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 28px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+}
+fieldset {
+    border: transparent;
+    border-radius: 10px;
+    background-color: white;
+    line-height: 50px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 100px;
+}
+legend, label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    letter-spacing: 0px;
+    text-shadow: none;
+}
+input,textarea {
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    letter-spacing: normal;
+    text-shadow: none;
+    word-spacing: 2px;
+    vertical-align: middle;
+}
+span {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+}
+.male, .female, .custom {
+    width: 30px;
+}
+legend {
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+div.gender {
+    text-align: left;
+    background-color: transparent;
+    line-height: 30px;
+}
+div.name {
+    text-align: left;
+    background-color: transparent;
+}
